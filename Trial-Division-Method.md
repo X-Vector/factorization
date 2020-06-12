@@ -6,7 +6,7 @@
 
 > Proof :
 
-    let a is smallest positive divisor of n and a is not prime 			  (1)
+    let a is smallest positive divisor of n and a is not prime 		   (1)
 
     i.e : ah = n for some integer h
 
@@ -16,7 +16,7 @@
 
     i.e : n = (sr)h = s(rh)
 
-    i.e : s is also divides n 		[n | s]								(3)
+    i.e : s is also divides n 		[n | s]				   (3)
 
     from (1) , (3) we can see that a is not smallest positive divisor so there is a contradiction 
 
