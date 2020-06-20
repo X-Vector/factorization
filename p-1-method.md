@@ -1,6 +1,7 @@
 # Brent-Pollard's ( P- 1 Method )
 
 **Brent-Pollard's Method is based on (p - 1) has small factor .**
+> Proof :
 
 **Suppose we want factor a number n = p*q  where p is non trivial factor & (p - 1) has small factors = ![formula](https://render.githubusercontent.com/render/math?math=u1%20*%20u2%20*%20u3%20.....%20uk%20%20,%20ui%20%3C%20u) where (u) is upper bound if X0 ∈ Zp Where X0 ≠ 0**
 
@@ -17,6 +18,8 @@
 **as we know we don't have The Value of p , but we have the properties of p which  (p - 1) has small factors =** ![formula](https://render.githubusercontent.com/render/math?math=u1%20*%20u2%20*%20u3%20.....%20uk%20%20,%20ui%20%3C%20u) .
 
 **so we will get all prime factor and try all to get p then get q by dividing n/p**
+
+> End of Proof :
 
 # Algorithm of Factoring n By Brent-Pollard's ( P- 1 Method )
 
