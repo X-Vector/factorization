@@ -2,7 +2,7 @@
 
 **Trial Division based on the smallest positive divisor of any positive integer must be prime .**
 
-**The Simplest factoring algorithm is the trial division method , which tries all the possible division of n to obtain it's complete prime number factorization Where n = p1 p2  p3  p4  p5  p6 ... pm** 
+**The Simplest factoring algorithm is the trial division method , which tries all the possible division of n to obtain it's complete prime number factorization Where** ![formula](https://render.githubusercontent.com/render/math?math=n=p1*p2*p3*p4*p5*p6*%20...%20*pm)  
 
 > Proof :
 
@@ -33,7 +33,7 @@ This Algorithm factorize an integer n where n > 1
   	[2] if n = 1 Then :
     	go to [5]
 
-  	[3] q = devided(n,k) and r = n % k
+  	[3] q = n / k and r = n % k
         if r ≠ 0 Then :
         	go to [4]
         t = t+1 
@@ -48,11 +48,11 @@ This Algorithm factorize an integer n where n > 1
 
 	[5] Exit
 
-**We Can use This Algorithm to check if n is prime or not By trying all possible number less than square root n and greater than 1 ;  2 <= i < sqrt(n)**
+**We Can use This Algorithm to check if n is prime or not By trying all possible number less than square root n and greater than 1 ;  2 <= i < √n**
 
 	TrialDivision(n):
 
-      i = 2 , k = sqrt(n)
+      i = 2 , k = √n
 
       while i small than or equal k :
 
